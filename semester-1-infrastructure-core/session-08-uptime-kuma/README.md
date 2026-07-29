@@ -68,10 +68,12 @@ First attempt, Pi-hole kept showing as down even though it was clearly running �
 [![Dashboard showing outage](screenshots/dashboard-outage.png)](screenshots/dashboard-outage.png)
 
 **Telegram alert — outage notification**
-[![Telegram down alert](screenshots/telegram-notification-outage.png)](screenshots/telegram-notification-outage.png)
+[![Telegram down alert](screenshots/telegram-notification-outage.png)]
+(screenshots/telegram-notification-outage.png)
 
 **Telegram alert — service restored**
-[![Telegram restored alert](screenshots/telegram-notification-restored.png)](screenshots/telegram-notification-restored.png)
+[![Telegram restored alert](screenshots/telegram-notification-restored.png)]
+(screenshots/telegram-notification-restored.png)
 
 ## Next up
 
