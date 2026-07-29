@@ -15,13 +15,13 @@ Examples:
 - `architecture-s2-week01-hardening-backups.png`
 - `architecture-s2-week02-authelia.png`
 
-Semester and week are both included because each semester restarts its own week numbering (Semester 2, Week 1 is a different session than Semester 1, Week 1) — so the semester prefix keeps filenames unambiguous.
+Semester and week are both included because each semester restarts its own week numbering (Semester 1, Week 1 is a different session than Semester 2, Week 1) — so the semester prefix keeps filenames unambiguous.
 
 ## Why diagrams are versioned, not replaced
 
 Each diagram should reflect the *full* architecture as it stood at the end of that week — not just the new piece added. So `architecture-s1-week04-pihole.png` shows the VM, Docker, and Pi-hole together, not Pi-hole in isolation. That way, looking at the diagrams in order tells the story of the lab growing, session by session, without needing to read every README to understand how it evolved.
 
-> 💡 **Why this matters as an example:** This is a small habit, but it's a good one to carry into real infrastructure work — documentation that shows *how a system got to its current state*, not just what the current state is, is far more useful when something breaks or when someone new joins the project.
+> 💡 **Why this matters as an example:** This is a small habit, but it's a good one to carry into real work — documentation that shows *how a system got to its current state*, not just what the current state is, is far more useful when something breaks or when someone new joins the project.
 
 ## Current architecture
 
