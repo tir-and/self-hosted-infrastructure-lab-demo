@@ -59,7 +59,7 @@ First attempt, Pi-hole kept showing as down even though it was clearly running â
 ## Screenshots
 
 **Dashboard â€” all services healthy**
-[View screenshot](screenshots/dashboard.png)
+[![Uptime Kuma dashboard, all green](screenshots/dashboard.png)](screenshots/dashboard.png)
 
 **Monitor configuration**
 [View screenshot](screenshots/monitoring-service.png)
