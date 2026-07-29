@@ -59,19 +59,19 @@ First attempt, Pi-hole kept showing as down even though it was clearly running �
 ## Screenshots
 
 **Dashboard — all services healthy**
-![Uptime Kuma dashboard, all green](screenshots/dashboard.png)
+[View screenshot](screenshots/dashboard.png)
 
 **Monitor configuration**
-![Monitor setup for Pi-hole](screenshots/monitoring-service.png)
+[View screenshot](screenshots/monitoring-service.png)
 
 **Dashboard mid-outage — Pi-hole flagged down**
-![Dashboard showing outage](screenshots/dashboard-outage.png)
+[View screenshot](screenshots/dashboard-outage.png)
 
 **Telegram alert — outage notification**
-![Telegram down alert](screenshots/telegram-notification-outage.png)
+[View screenshot](screenshots/telegram-notification-outage.png)
 
 **Telegram alert — service restored**
-![Telegram restored alert](screenshots/telegram-notification-restored.png)
+[View screenshot](screenshots/telegram-notification-restored.png)
 
 ## Next up
 
