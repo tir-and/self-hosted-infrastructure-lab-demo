@@ -21,7 +21,7 @@ This is actually all about:
 
 ## Deployment
 
-Deployed via Docker Compose alongside the rest of the stack. Simple config lives in `docker-compose.yml` added here.
+Deployed via Docker Compose alongside the rest of the stack. The config lives in [`docker-compose.yml`](./docker-compose.yml) in this folder.
 
 ## Telegram Bot Notifications
 
