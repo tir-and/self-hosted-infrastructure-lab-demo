@@ -1,12 +1,12 @@
 # Self-Hosted Lab — Demo Repository
 
-> 💡 **Note for students:** This is the instructor's demo repo for the *Practical Self-Hosted Infrastructure* programme. It exists so you can see what a real, well-documented build looks like — not a polished tutorial, but an actual working lab with real screenshots and real mistakes written down. Your own repo should follow the same structure, but everything in it should be your own work, in your own words.
+> 💡 **Note for students:** This is the instructor's demo repo for the *Practical Self-Hosted Infrastructure* programme. It exists so you can see what a real documented build looks like, an actual working lab with real screenshots and real mistakes written down. Your own repo should follow the same structure, but everything in it should be your own work, in your own words.
 
 ## What this is
 
-This repo documents one self-hosted infrastructure lab, built session by session over two semesters. Everything here runs on a single Ubuntu Server VM, with each week adding one more layer — a new service, a new concept, a new piece of the stack. Nothing is installed in isolation. By the end, it's one growing system, not ten disconnected experiments.
+This repo documents one self-hosted infrastructure lab, built session by session over two semesters. Everything here runs on a single Ubuntu Server VM, with each week adding one more layer — a new service, a new concept, a new piece of the stack. Nothing is installed in isolation. By the end, it's one growing system.
 
-That's intentional, not incidental. The whole point of this programme is to leave you with something you actually built and can talk about — not a certificate, not a checklist, but a real deployed environment you can walk someone through in an interview.
+The whole point of this programme is to leave you with something you actually built and can talk about — not a certificate, not a checklist, but a real deployed environment you can walk someone through in an interview.
 
 ## The programme
 
@@ -16,7 +16,7 @@ For students focused on networking and infrastructure. Covers Linux, Docker, DNS
 **Semester 2 — Security Lab Advanced**
 For students continuing into cybersecurity. Builds directly on top of the same environment from Semester 1 — hardening, backups, access control, intrusion prevention, and SIEM monitoring.
 
-You can stop after Semester 1 with a complete, portfolio-ready lab. Semester 2 isn't a new project — it's the same infrastructure, secured and monitored.
+You can stop after Semester 1 with a complete, portfolio-ready lab. Semester 2 isn't a new project — it's the same infrastructure, now secured and monitored.
 
 ## Repo structure
 
@@ -47,7 +47,7 @@ self-hosted-lab-demo/
 
 Each session folder contains its own `README.md` — what was built, what was tested, one problem that came up and how it got fixed, and a list of the screenshots that go with it. Most sessions from Session 3 onward also include the actual `docker-compose.yml` used that week.
 
-> 💡 **Why this structure matters:** Notice that troubleshooting notes live in one file at the root, not scattered across session folders. That's deliberate — it reads as one continuous story of things going wrong and getting fixed, which is closer to how real infrastructure work actually looks.
+> 💡 **Why this structure matters:** Notice that troubleshooting notes live in one file at the root, not scattered across session folders. That's deliberate — it reads as one continuous story of things going wrong and getting fixed.
 
 ## How to use this if you're a student
 
