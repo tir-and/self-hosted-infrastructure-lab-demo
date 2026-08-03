@@ -84,11 +84,10 @@ Fixed it by adjusting Vaultwarden's port mapping so its bundled Caddy no longer 
 
 ## Screenshots
 
-- Nginx Proxy Manager dashboard showing all five proxy hosts, each with a valid certificate
-- Browser showing a service reached via its `*.tir.infralabs.uk` subdomain over HTTPS, no warnings
-- Cloudflare DNS records showing the subdomains pointing correctly
-- `docker network inspect proxy` showing all the connected containers
-- Output of `docker ps` and `docker compose ls` showing the full picture across all stacks
+- [`docker-network-inspect-proxy.png`](./screenshots/docker-network-inspect-proxy.png) — proxy network showing all connected containers
+- [`domain-with-https-certificate.png`](./screenshots/domain-with-https-certificate.png) — a service reached via its subdomain, valid HTTPS, no warnings
+- [`npm-container-running.png`](./screenshots/npm-container-running.png) — docker ps confirming NPM itself is up
+- [`npm-dashboard.png`](./screenshots/npm-dashboard.png) — NPM admin panel showing the configured proxy hosts
 
 ## Next up
 
