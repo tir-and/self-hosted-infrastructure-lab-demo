@@ -8,10 +8,6 @@ This week I deployed File Browser — a simple web-based file manager that gives
 
 > 💡 **Why this matters as an example:** If you're wondering why the programme uses File Browser instead of something more feature-complete, that's answered below.
 
-## Why File Browser and not Nextcloud
-
-Nextcloud is more powerful, but it's heavier, slower to set up, and harder to troubleshoot when something goes wrong — not ideal this early in the programme. File Browser does the core job (upload, download, browse, organize files through a browser) with a much smaller footprint and far fewer moving parts. Nextcloud shows up later, in the Advanced track, once there's more Docker experience to fall back on.
-
 ## Why this one matters
 
 This is not:
@@ -49,10 +45,10 @@ First attempt, uploads kept failing with a permissions error. Turned out the `PU
 
 ## Screenshots
 
-- File Browser login screen
-- Dashboard showing uploaded test files
-- User management screen showing the second account
-- Terminal output confirming files/users persisted after a container restart
+- [`file-browser-login.png`](./screenshots/file-browser-login.png) — File Browser login screen
+- [`file-browser-running-docker.png`](./screenshots/file-browser-running-docker.png) — docker ps showing the container running
+- [`files-persisted-after-stop.png`](./screenshots/files-persisted-after-stop.png) — files still present after restarting the container, confirming the volume works
+- [`user-panel.png`](./screenshots/user-panel.png) — user management screen showing the second account
 
 ## Next up
 
