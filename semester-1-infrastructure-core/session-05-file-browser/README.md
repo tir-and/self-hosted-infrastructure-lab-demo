@@ -21,7 +21,7 @@ This is actually about:
 
 ## Deployment
 
-Deployed via Docker Compose. Config lives in `docker-compose.yml` added here.
+Deployed via Docker Compose. Config lives in [`docker-compose.yml`](./docker-compose.yml) in this folder.
 
 > 💡 **Why this matters as an example:** Notice there are two volumes here, not one — `/srv` is the actual files being managed, `/database` is File Browser's own settings and user accounts. Losing the database volume means losing users and config, not files; losing the `/srv` volume means losing the actual data. Worth understanding the difference, not just copying the block.
 
